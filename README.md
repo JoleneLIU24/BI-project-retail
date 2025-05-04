@@ -5,20 +5,9 @@ This interactive Superset dashboard provides actionable insights into **retail s
 ---
 
 ## 🖼️ Dashboard Preview
-![Dashboard GIF](dashboard gif.gif)
+![Dashboard GIF](https://github.com/JoleneLIU24/BI-project-retail/raw/main/dashboard%20gif.gif)
 
 
-### Sales Overview
-![Dashboard Screenshot 1](screenshot1.jpg)
-
-### Sales Overview
-![Dashboard Screenshot 2](screenshot2.jpg)
-
-### Inventory Overview
-![Dashboard Screenshot 3](sceenshot3.jpg)
-
-### Inventory Overview
-![Dashboard Screenshot 4](screenshot4.jpg)
 
 ---
 
