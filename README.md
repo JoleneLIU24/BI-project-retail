@@ -5,6 +5,7 @@ This interactive Superset dashboard provides actionable insights into **retail s
 ---
 
 ## 🖼️ Dashboard Preview
+![Dashboard GIF](dashboard gif.gif)
 
 
 ### Sales Overview
