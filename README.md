@@ -32,7 +32,7 @@ This interactive Superset dashboard provides actionable insights into **retail s
 
 ## 📚 Dataset Source
 
-The dashboard uses two public datasets sourced from [Kaggle](https://www.kaggle.com/](https://www.kaggle.com/datasets/suvroo/inventory-optimization-for-retail/data)):
+The dashboard uses two public datasets sourced from [Kaggle](https://www.kaggle.com/datasets/suvroo/inventory-optimization-for-retail/data):
 
 - **`demand_forecasting.csv`**  
 
