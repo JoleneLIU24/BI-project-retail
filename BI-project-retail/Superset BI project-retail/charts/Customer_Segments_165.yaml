@@ -1,0 +1,53 @@
+slice_name: Customer Segments
+description: null
+certified_by: null
+certification_details: null
+viz_type: box_plot
+params:
+  datasource: 30__table
+  viz_type: box_plot
+  slice_id: 165
+  columns:
+  - Date
+  time_grain_sqla: P1M
+  temporal_columns_lookup:
+    Date: true
+  groupby:
+  - Customer Segments
+  metrics:
+  - aggregate: null
+    column: null
+    datasourceWarning: false
+    expressionType: SQL
+    hasCustomLabel: false
+    label: COUNT(*)
+    optionName: metric_zzhecbr4c7o_t8yrqhg4p6q
+    sqlExpression: COUNT(*)
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    expressionType: SIMPLE
+    operator: TEMPORAL_RANGE
+    subject: Date
+  whiskerOptions: Tukey
+  x_axis_title_margin: 15
+  y_axis_title_margin: 30
+  y_axis_title_position: Left
+  color_scheme: bnbColors
+  x_ticks_layout: auto
+  number_format: SMART_NUMBER
+  date_format: smart_date
+  extra_form_data: {}
+  dashboards:
+  - 12
+query_context: '{"datasource":{"id":30,"type":"table"},"force":false,"queries":[{"filters":[{"col":"Date","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"time_grain_sqla":"P1M","having":"","where":""},"applied_time_extras":{},"columns":[{"timeGrain":"P1M","columnType":"BASE_AXIS","sqlExpression":"Date","label":"Date","expressionType":"SQL"},"Customer
+  Segments"],"metrics":[{"aggregate":null,"column":null,"datasourceWarning":false,"expressionType":"SQL","hasCustomLabel":false,"label":"COUNT(*)","optionName":"metric_zzhecbr4c7o_t8yrqhg4p6q","sqlExpression":"COUNT(*)"}],"annotation_layers":[],"series_columns":["Customer
+  Segments"],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[{"operation":"boxplot","options":{"whisker_type":"tukey","groupby":["Customer
+  Segments"],"metrics":["COUNT(*)"]}}]}],"form_data":{"datasource":"30__table","viz_type":"box_plot","slice_id":165,"columns":["Date"],"time_grain_sqla":"P1M","temporal_columns_lookup":{"Date":true},"groupby":["Customer
+  Segments"],"metrics":[{"aggregate":null,"column":null,"datasourceWarning":false,"expressionType":"SQL","hasCustomLabel":false,"label":"COUNT(*)","optionName":"metric_zzhecbr4c7o_t8yrqhg4p6q","sqlExpression":"COUNT(*)"}],"adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","expressionType":"SIMPLE","operator":"TEMPORAL_RANGE","subject":"Date"}],"whiskerOptions":"Tukey","x_axis_title_margin":15,"y_axis_title_margin":30,"y_axis_title_position":"Left","color_scheme":"bnbColors","x_ticks_layout":"auto","number_format":"SMART_NUMBER","date_format":"smart_date","extra_form_data":{},"dashboards":[12],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 3bd87662-ea5e-47d7-a938-6c49a37061ca
+version: 1.0.0
+dataset_uuid: d594d440-61f0-4e8d-a2f9-89232600cf85

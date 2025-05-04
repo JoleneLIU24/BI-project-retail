@@ -1,0 +1,112 @@
+slice_name: Fulfilment Time
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_bar
+params:
+  datasource: 30__table
+  viz_type: echarts_timeseries_bar
+  slice_id: 176
+  x_axis: Date
+  time_grain_sqla: P1M
+  x_axis_sort_asc: true
+  metrics:
+  - aggregate: AVG
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: Order Fulfillment Time (days)
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 824
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: INTEGER
+      type_generic: 0
+      uuid: 038da393-b86b-4841-ae83-eef76f8af5ab
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    label: AVG(Order Fulfillment Time (days))
+    optionName: metric_98303of7xf5_hlv91mu7h67
+    sqlExpression: null
+  groupby: []
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    expressionType: SIMPLE
+    operator: TEMPORAL_RANGE
+    subject: Date
+  order_desc: true
+  row_limit: 10000
+  truncate_metric: true
+  show_empty_columns: true
+  comparison_type: values
+  annotation_layers:
+  - name: Target
+    annotationType: FORMULA
+    sourceType: ''
+    color: '#ff7f44'
+    opacity: opacityHigh
+    style: dashed
+    width: 5
+    showMarkers: false
+    hideLine: false
+    overrides: {}
+    show: true
+    showLabel: true
+    titleColumn: ''
+    descriptionColumns: []
+    timeColumn: ''
+    intervalEndColumn: ''
+    value: y = 6
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  orientation: vertical
+  x_axis_title_margin: 15
+  y_axis_title_margin: 30
+  y_axis_title_position: Left
+  sort_series_type: sum
+  color_scheme: supersetColors
+  time_shift_color: true
+  show_value: true
+  stack: null
+  only_total: true
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  y_axis_format: SMART_NUMBER
+  y_axis_bounds:
+  - null
+  - null
+  truncateXAxis: true
+  rich_tooltip: true
+  showTooltipTotal: true
+  tooltipSortByMetric: false
+  tooltipTimeFormat: smart_date
+  extra_form_data: {}
+  dashboards:
+  - 12
+query_context: '{"datasource":{"id":30,"type":"table"},"force":false,"queries":[{"filters":[{"col":"Date","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"time_grain_sqla":"P1M","having":"","where":""},"applied_time_extras":{},"columns":[{"timeGrain":"P1M","columnType":"BASE_AXIS","sqlExpression":"Date","label":"Date","expressionType":"SQL"}],"metrics":[{"aggregate":"AVG","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"Order
+  Fulfillment Time (days)","description":null,"expression":null,"filterable":true,"groupby":true,"id":824,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"INTEGER","type_generic":0,"uuid":"038da393-b86b-4841-ae83-eef76f8af5ab","verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"AVG(Order
+  Fulfillment Time (days))","optionName":"metric_98303of7xf5_hlv91mu7h67","sqlExpression":null}],"orderby":[[{"aggregate":"AVG","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"Order
+  Fulfillment Time (days)","description":null,"expression":null,"filterable":true,"groupby":true,"id":824,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"INTEGER","type_generic":0,"uuid":"038da393-b86b-4841-ae83-eef76f8af5ab","verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"AVG(Order
+  Fulfillment Time (days))","optionName":"metric_98303of7xf5_hlv91mu7h67","sqlExpression":null},false]],"annotation_layers":[{"name":"Target","annotationType":"FORMULA","sourceType":"","color":"#ff7f44","opacity":"opacityHigh","style":"dashed","width":5,"showMarkers":false,"hideLine":false,"overrides":{},"show":true,"showLabel":true,"titleColumn":"","descriptionColumns":[],"timeColumn":"","intervalEndColumn":"","value":"y
+  = 6"}],"row_limit":10000,"series_columns":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"time_offsets":[],"post_processing":[{"operation":"pivot","options":{"index":["Date"],"columns":[],"aggregates":{"AVG(Order
+  Fulfillment Time (days))":{"operator":"mean"}},"drop_missing_columns":false}},{"operation":"flatten"}]}],"form_data":{"datasource":"30__table","viz_type":"echarts_timeseries_bar","slice_id":176,"x_axis":"Date","time_grain_sqla":"P1M","x_axis_sort_asc":true,"metrics":[{"aggregate":"AVG","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"Order
+  Fulfillment Time (days)","description":null,"expression":null,"filterable":true,"groupby":true,"id":824,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"INTEGER","type_generic":0,"uuid":"038da393-b86b-4841-ae83-eef76f8af5ab","verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"AVG(Order
+  Fulfillment Time (days))","optionName":"metric_98303of7xf5_hlv91mu7h67","sqlExpression":null}],"groupby":[],"adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","expressionType":"SIMPLE","operator":"TEMPORAL_RANGE","subject":"Date"}],"order_desc":true,"row_limit":10000,"truncate_metric":true,"show_empty_columns":true,"comparison_type":"values","annotation_layers":[{"name":"Target","annotationType":"FORMULA","sourceType":"","color":"#ff7f44","opacity":"opacityHigh","style":"dashed","width":5,"showMarkers":false,"hideLine":false,"overrides":{},"show":true,"showLabel":true,"titleColumn":"","descriptionColumns":[],"timeColumn":"","intervalEndColumn":"","value":"y
+  = 6"}],"forecastPeriods":10,"forecastInterval":0.8,"orientation":"vertical","x_axis_title_margin":15,"y_axis_title_margin":30,"y_axis_title_position":"Left","sort_series_type":"sum","color_scheme":"supersetColors","time_shift_color":true,"show_value":true,"stack":null,"only_total":true,"show_legend":true,"legendType":"scroll","legendOrientation":"top","x_axis_time_format":"smart_date","y_axis_format":"SMART_NUMBER","y_axis_bounds":[null,null],"truncateXAxis":true,"rich_tooltip":true,"showTooltipTotal":true,"tooltipSortByMetric":false,"tooltipTimeFormat":"smart_date","extra_form_data":{},"dashboards":[12],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: cb90b428-9380-4349-9d24-77c4ce9604b8
+version: 1.0.0
+dataset_uuid: d594d440-61f0-4e8d-a2f9-89232600cf85
