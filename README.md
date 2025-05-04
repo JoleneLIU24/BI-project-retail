@@ -7,7 +7,17 @@ This interactive Superset dashboard provides actionable insights into **retail s
 ## 🖼️ Dashboard Preview
 
 
-![Dashboard Screenshot](dashboard-preview.png)
+### Sales Overview
+![Dashboard Screenshot 1](screenshot1.jpg)
+
+### Sales Overview
+![Dashboard Screenshot 2](screenshot2.jpg)
+
+### Inventory Overview
+![Dashboard Screenshot 3](screenshot3.jpg)
+
+### Inventory Overview
+![Dashboard Screenshot 4](screenshot4.jpg)
 
 ---
 
