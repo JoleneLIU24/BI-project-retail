@@ -4,6 +4,13 @@ This interactive Superset dashboard provides actionable insights into **retail s
 
 ---
 
+## 🖼️ Dashboard Preview
+
+
+![Dashboard Screenshot](dashboard-preview.png)
+
+---
+
 ## 📊 Key Insights
 
 ### 💰 Sales Performance
